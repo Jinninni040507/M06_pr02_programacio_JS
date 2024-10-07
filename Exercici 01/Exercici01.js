@@ -1,3 +1,4 @@
+//-----LLISTA-------------------------//
 const valorMin = document.getElementById("valor_min");
 const ampladaTotal = document.getElementById("amplada_total");
 const ampladaInterna = document.getElementById("amplada_interna");
@@ -9,3 +10,5 @@ ampladaTotal.textContent = screen.width;
 ampladaInterna.textContent = window.innerWidth;
 titol.textContent = document.title;
 horaActual.textContent = new Date().getHours();
+
+//------REPRODUCTOR---------------------//
